@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.EsportaInventarioPerEmil.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MAGINVPCTableAdapter" GeneratorDataComponentClassName="MAGINVPCTableAdapter" Name="MAGINVPC" UserDataComponentName="MAGINVPCTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="S061CA4T.MAGINVPC" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO "$EMIEDATI"."MAGINVPC" DEFAULT VALUES</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "MSARTI", "MSDSAR", "MSLUNG", "MSLARG", "MSSPES", "MSUNMI", "MSNFOG", "MSMTCU", "MSVALM", "MSVALO", "ARPOSI" FROM "$EMIEDATI"."MAGINVPC"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MSARTI" DataSetColumn="MSARTI" />
+              <Mapping SourceColumn="MSDSAR" DataSetColumn="MSDSAR" />
+              <Mapping SourceColumn="MSLUNG" DataSetColumn="MSLUNG" />
+              <Mapping SourceColumn="MSLARG" DataSetColumn="MSLARG" />
+              <Mapping SourceColumn="MSSPES" DataSetColumn="MSSPES" />
+              <Mapping SourceColumn="MSUNMI" DataSetColumn="MSUNMI" />
+              <Mapping SourceColumn="MSNFOG" DataSetColumn="MSNFOG" />
+              <Mapping SourceColumn="MSMTCU" DataSetColumn="MSMTCU" />
+              <Mapping SourceColumn="MSVALM" DataSetColumn="MSVALM" />
+              <Mapping SourceColumn="MSVALO" DataSetColumn="MSVALO" />
+              <Mapping SourceColumn="ARPOSI" DataSetColumn="ARPOSI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MAGINVPC" msprop:Generator_TableClassName="MAGINVPCDataTable" msprop:Generator_TableVarName="tableMAGINVPC" msprop:Generator_TablePropName="MAGINVPC" msprop:Generator_RowDeletingName="MAGINVPCRowDeleting" msprop:Generator_RowChangingName="MAGINVPCRowChanging" msprop:Generator_RowEvHandlerName="MAGINVPCRowChangeEventHandler" msprop:Generator_RowDeletedName="MAGINVPCRowDeleted" msprop:Generator_UserTableName="MAGINVPC" msprop:Generator_RowChangedName="MAGINVPCRowChanged" msprop:Generator_RowEvArgName="MAGINVPCRowChangeEvent" msprop:Generator_RowClassName="MAGINVPCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MSARTI" msprop:Generator_ColumnVarNameInTable="columnMSARTI" msprop:Generator_ColumnPropNameInRow="MSARTI" msprop:Generator_ColumnPropNameInTable="MSARTIColumn" msprop:Generator_UserColumnName="MSARTI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MSDSAR" msprop:Generator_ColumnVarNameInTable="columnMSDSAR" msprop:Generator_ColumnPropNameInRow="MSDSAR" msprop:Generator_ColumnPropNameInTable="MSDSARColumn" msprop:Generator_UserColumnName="MSDSAR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MSLUNG" msprop:Generator_ColumnVarNameInTable="columnMSLUNG" msprop:Generator_ColumnPropNameInRow="MSLUNG" msprop:Generator_ColumnPropNameInTable="MSLUNGColumn" msprop:Generator_UserColumnName="MSLUNG" type="xs:decimal" />
+              <xs:element name="MSLARG" msprop:Generator_ColumnVarNameInTable="columnMSLARG" msprop:Generator_ColumnPropNameInRow="MSLARG" msprop:Generator_ColumnPropNameInTable="MSLARGColumn" msprop:Generator_UserColumnName="MSLARG" type="xs:decimal" />
+              <xs:element name="MSSPES" msprop:Generator_ColumnVarNameInTable="columnMSSPES" msprop:Generator_ColumnPropNameInRow="MSSPES" msprop:Generator_ColumnPropNameInTable="MSSPESColumn" msprop:Generator_UserColumnName="MSSPES" type="xs:decimal" />
+              <xs:element name="MSUNMI" msprop:Generator_ColumnVarNameInTable="columnMSUNMI" msprop:Generator_ColumnPropNameInRow="MSUNMI" msprop:Generator_ColumnPropNameInTable="MSUNMIColumn" msprop:Generator_UserColumnName="MSUNMI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MSNFOG" msprop:Generator_ColumnVarNameInTable="columnMSNFOG" msprop:Generator_ColumnPropNameInRow="MSNFOG" msprop:Generator_ColumnPropNameInTable="MSNFOGColumn" msprop:Generator_UserColumnName="MSNFOG" type="xs:decimal" />
+              <xs:element name="MSMTCU" msprop:Generator_ColumnVarNameInTable="columnMSMTCU" msprop:Generator_ColumnPropNameInRow="MSMTCU" msprop:Generator_ColumnPropNameInTable="MSMTCUColumn" msprop:Generator_UserColumnName="MSMTCU" type="xs:decimal" />
+              <xs:element name="MSVALM" msprop:Generator_ColumnVarNameInTable="columnMSVALM" msprop:Generator_ColumnPropNameInRow="MSVALM" msprop:Generator_ColumnPropNameInTable="MSVALMColumn" msprop:Generator_UserColumnName="MSVALM" type="xs:decimal" />
+              <xs:element name="MSVALO" msprop:Generator_ColumnVarNameInTable="columnMSVALO" msprop:Generator_ColumnPropNameInRow="MSVALO" msprop:Generator_ColumnPropNameInTable="MSVALOColumn" msprop:Generator_UserColumnName="MSVALO" type="xs:decimal" />
+              <xs:element name="ARPOSI" msprop:Generator_ColumnVarNameInTable="columnARPOSI" msprop:Generator_ColumnPropNameInRow="ARPOSI" msprop:Generator_ColumnPropNameInTable="ARPOSIColumn" msprop:Generator_UserColumnName="ARPOSI" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
