@@ -32,6 +32,9 @@
             this.dgv1 = new System.Windows.Forms.DataGridView();
             this.Btn_export = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
+            this.mAGINVPCBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSet1 = new EsportaInventarioPerEmil.DataSet1();
+            this.mAGINVPCTableAdapter = new EsportaInventarioPerEmil.DataSet1TableAdapters.MAGINVPCTableAdapter();
             this.mSARTIDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mSDSARDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mSLUNGDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,9 +46,6 @@
             this.mSVALMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mSVALODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aRPOSIDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mAGINVPCBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataSet1 = new EsportaInventarioPerEmil.DataSet1();
-            this.mAGINVPCTableAdapter = new EsportaInventarioPerEmil.DataSet1TableAdapters.MAGINVPCTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mAGINVPCBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
@@ -103,105 +103,6 @@
             this.btn_exit.UseVisualStyleBackColor = true;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // mSARTIDataGridViewTextBoxColumn
-            // 
-            this.mSARTIDataGridViewTextBoxColumn.DataPropertyName = "MSARTI";
-            this.mSARTIDataGridViewTextBoxColumn.HeaderText = "MSARTI";
-            this.mSARTIDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSARTIDataGridViewTextBoxColumn.Name = "mSARTIDataGridViewTextBoxColumn";
-            this.mSARTIDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSARTIDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSDSARDataGridViewTextBoxColumn
-            // 
-            this.mSDSARDataGridViewTextBoxColumn.DataPropertyName = "MSDSAR";
-            this.mSDSARDataGridViewTextBoxColumn.HeaderText = "MSDSAR";
-            this.mSDSARDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSDSARDataGridViewTextBoxColumn.Name = "mSDSARDataGridViewTextBoxColumn";
-            this.mSDSARDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSDSARDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSLUNGDataGridViewTextBoxColumn
-            // 
-            this.mSLUNGDataGridViewTextBoxColumn.DataPropertyName = "MSLUNG";
-            this.mSLUNGDataGridViewTextBoxColumn.HeaderText = "MSLUNG";
-            this.mSLUNGDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSLUNGDataGridViewTextBoxColumn.Name = "mSLUNGDataGridViewTextBoxColumn";
-            this.mSLUNGDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSLUNGDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSLARGDataGridViewTextBoxColumn
-            // 
-            this.mSLARGDataGridViewTextBoxColumn.DataPropertyName = "MSLARG";
-            this.mSLARGDataGridViewTextBoxColumn.HeaderText = "MSLARG";
-            this.mSLARGDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSLARGDataGridViewTextBoxColumn.Name = "mSLARGDataGridViewTextBoxColumn";
-            this.mSLARGDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSLARGDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSSPESDataGridViewTextBoxColumn
-            // 
-            this.mSSPESDataGridViewTextBoxColumn.DataPropertyName = "MSSPES";
-            this.mSSPESDataGridViewTextBoxColumn.HeaderText = "MSSPES";
-            this.mSSPESDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSSPESDataGridViewTextBoxColumn.Name = "mSSPESDataGridViewTextBoxColumn";
-            this.mSSPESDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSSPESDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSUNMIDataGridViewTextBoxColumn
-            // 
-            this.mSUNMIDataGridViewTextBoxColumn.DataPropertyName = "MSUNMI";
-            this.mSUNMIDataGridViewTextBoxColumn.HeaderText = "MSUNMI";
-            this.mSUNMIDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSUNMIDataGridViewTextBoxColumn.Name = "mSUNMIDataGridViewTextBoxColumn";
-            this.mSUNMIDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSUNMIDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSNFOGDataGridViewTextBoxColumn
-            // 
-            this.mSNFOGDataGridViewTextBoxColumn.DataPropertyName = "MSNFOG";
-            this.mSNFOGDataGridViewTextBoxColumn.HeaderText = "MSNFOG";
-            this.mSNFOGDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSNFOGDataGridViewTextBoxColumn.Name = "mSNFOGDataGridViewTextBoxColumn";
-            this.mSNFOGDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSNFOGDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSMTCUDataGridViewTextBoxColumn
-            // 
-            this.mSMTCUDataGridViewTextBoxColumn.DataPropertyName = "MSMTCU";
-            this.mSMTCUDataGridViewTextBoxColumn.HeaderText = "MSMTCU";
-            this.mSMTCUDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSMTCUDataGridViewTextBoxColumn.Name = "mSMTCUDataGridViewTextBoxColumn";
-            this.mSMTCUDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSMTCUDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSVALMDataGridViewTextBoxColumn
-            // 
-            this.mSVALMDataGridViewTextBoxColumn.DataPropertyName = "MSVALM";
-            this.mSVALMDataGridViewTextBoxColumn.HeaderText = "MSVALM";
-            this.mSVALMDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSVALMDataGridViewTextBoxColumn.Name = "mSVALMDataGridViewTextBoxColumn";
-            this.mSVALMDataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSVALMDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mSVALODataGridViewTextBoxColumn
-            // 
-            this.mSVALODataGridViewTextBoxColumn.DataPropertyName = "MSVALO";
-            this.mSVALODataGridViewTextBoxColumn.HeaderText = "MSVALO";
-            this.mSVALODataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mSVALODataGridViewTextBoxColumn.Name = "mSVALODataGridViewTextBoxColumn";
-            this.mSVALODataGridViewTextBoxColumn.ReadOnly = true;
-            this.mSVALODataGridViewTextBoxColumn.Width = 125;
-            // 
-            // aRPOSIDataGridViewTextBoxColumn
-            // 
-            this.aRPOSIDataGridViewTextBoxColumn.DataPropertyName = "ARPOSI";
-            this.aRPOSIDataGridViewTextBoxColumn.HeaderText = "ARPOSI";
-            this.aRPOSIDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.aRPOSIDataGridViewTextBoxColumn.Name = "aRPOSIDataGridViewTextBoxColumn";
-            this.aRPOSIDataGridViewTextBoxColumn.ReadOnly = true;
-            this.aRPOSIDataGridViewTextBoxColumn.Width = 125;
-            // 
             // mAGINVPCBindingSource
             // 
             this.mAGINVPCBindingSource.DataMember = "MAGINVPC";
@@ -215,6 +116,105 @@
             // mAGINVPCTableAdapter
             // 
             this.mAGINVPCTableAdapter.ClearBeforeFill = true;
+            // 
+            // mSARTIDataGridViewTextBoxColumn
+            // 
+            this.mSARTIDataGridViewTextBoxColumn.DataPropertyName = "MSARTI";
+            this.mSARTIDataGridViewTextBoxColumn.HeaderText = "Codice";
+            this.mSARTIDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSARTIDataGridViewTextBoxColumn.Name = "mSARTIDataGridViewTextBoxColumn";
+            this.mSARTIDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSARTIDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSDSARDataGridViewTextBoxColumn
+            // 
+            this.mSDSARDataGridViewTextBoxColumn.DataPropertyName = "MSDSAR";
+            this.mSDSARDataGridViewTextBoxColumn.HeaderText = "Descrizione";
+            this.mSDSARDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSDSARDataGridViewTextBoxColumn.Name = "mSDSARDataGridViewTextBoxColumn";
+            this.mSDSARDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSDSARDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSLUNGDataGridViewTextBoxColumn
+            // 
+            this.mSLUNGDataGridViewTextBoxColumn.DataPropertyName = "MSLUNG";
+            this.mSLUNGDataGridViewTextBoxColumn.HeaderText = "Lung.";
+            this.mSLUNGDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSLUNGDataGridViewTextBoxColumn.Name = "mSLUNGDataGridViewTextBoxColumn";
+            this.mSLUNGDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSLUNGDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSLARGDataGridViewTextBoxColumn
+            // 
+            this.mSLARGDataGridViewTextBoxColumn.DataPropertyName = "MSLARG";
+            this.mSLARGDataGridViewTextBoxColumn.HeaderText = "Larg.";
+            this.mSLARGDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSLARGDataGridViewTextBoxColumn.Name = "mSLARGDataGridViewTextBoxColumn";
+            this.mSLARGDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSLARGDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSSPESDataGridViewTextBoxColumn
+            // 
+            this.mSSPESDataGridViewTextBoxColumn.DataPropertyName = "MSSPES";
+            this.mSSPESDataGridViewTextBoxColumn.HeaderText = "Spes.";
+            this.mSSPESDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSSPESDataGridViewTextBoxColumn.Name = "mSSPESDataGridViewTextBoxColumn";
+            this.mSSPESDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSSPESDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSUNMIDataGridViewTextBoxColumn
+            // 
+            this.mSUNMIDataGridViewTextBoxColumn.DataPropertyName = "MSUNMI";
+            this.mSUNMIDataGridViewTextBoxColumn.HeaderText = "UM";
+            this.mSUNMIDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSUNMIDataGridViewTextBoxColumn.Name = "mSUNMIDataGridViewTextBoxColumn";
+            this.mSUNMIDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSUNMIDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSNFOGDataGridViewTextBoxColumn
+            // 
+            this.mSNFOGDataGridViewTextBoxColumn.DataPropertyName = "MSNFOG";
+            this.mSNFOGDataGridViewTextBoxColumn.HeaderText = "Numero fogli";
+            this.mSNFOGDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSNFOGDataGridViewTextBoxColumn.Name = "mSNFOGDataGridViewTextBoxColumn";
+            this.mSNFOGDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSNFOGDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSMTCUDataGridViewTextBoxColumn
+            // 
+            this.mSMTCUDataGridViewTextBoxColumn.DataPropertyName = "MSMTCU";
+            this.mSMTCUDataGridViewTextBoxColumn.HeaderText = "Metri Cubi";
+            this.mSMTCUDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSMTCUDataGridViewTextBoxColumn.Name = "mSMTCUDataGridViewTextBoxColumn";
+            this.mSMTCUDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSMTCUDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSVALMDataGridViewTextBoxColumn
+            // 
+            this.mSVALMDataGridViewTextBoxColumn.DataPropertyName = "MSVALM";
+            this.mSVALMDataGridViewTextBoxColumn.HeaderText = "Valore Unitario";
+            this.mSVALMDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSVALMDataGridViewTextBoxColumn.Name = "mSVALMDataGridViewTextBoxColumn";
+            this.mSVALMDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSVALMDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mSVALODataGridViewTextBoxColumn
+            // 
+            this.mSVALODataGridViewTextBoxColumn.DataPropertyName = "MSVALO";
+            this.mSVALODataGridViewTextBoxColumn.HeaderText = "Valore Totale";
+            this.mSVALODataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mSVALODataGridViewTextBoxColumn.Name = "mSVALODataGridViewTextBoxColumn";
+            this.mSVALODataGridViewTextBoxColumn.ReadOnly = true;
+            this.mSVALODataGridViewTextBoxColumn.Width = 125;
+            // 
+            // aRPOSIDataGridViewTextBoxColumn
+            // 
+            this.aRPOSIDataGridViewTextBoxColumn.DataPropertyName = "ARPOSI";
+            this.aRPOSIDataGridViewTextBoxColumn.HeaderText = "Pos.Stampa";
+            this.aRPOSIDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.aRPOSIDataGridViewTextBoxColumn.Name = "aRPOSIDataGridViewTextBoxColumn";
+            this.aRPOSIDataGridViewTextBoxColumn.ReadOnly = true;
+            this.aRPOSIDataGridViewTextBoxColumn.Width = 125;
             // 
             // Form1
             // 

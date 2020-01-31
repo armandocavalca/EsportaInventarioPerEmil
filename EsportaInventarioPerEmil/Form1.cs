@@ -32,6 +32,7 @@ namespace EsportaInventarioPerEmil
             //DialogSalvaXls dlg = new DialogSalvaXls();
             //dlg.dialog(dgv1);
             dialog(dgv1);
+            this.Close();
         }
         public void dialog(DataGridView grid)
         {
